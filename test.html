@@ -1,0 +1,66 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        border: 0;
+    }
+    html{
+        width: 100%;
+        height: 100%;
+    }
+    #pai {
+        width: 100%;
+        height: 200px;
+        background-color: blueviolet;
+        display: flex;
+    }
+    #filho{
+        width: 50%;
+        height: 100%;
+        background-color: brown;
+    }
+    #filho ul{
+        width: 100%;
+        height: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        list-style: none;
+    }
+    #filho ul li {
+        width: 20px;
+        height: 20px;
+        background-color: fuchsia;
+        opacity: 25%;
+    }
+    #irmao{
+        width: 50%;
+        height: 100%;
+        background-color: forestgreen;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+</style>
+<body>
+    <div id="pai">
+        <div id="filho">
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+        <div id="irmao">
+            <h5>asdasdas</h5>
+        </div>
+    </div>
+</body>
+</html>
